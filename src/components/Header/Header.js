@@ -1,11 +1,14 @@
 import React from 'react'
-
+import logo from '../../images/logo.png'
 function Header() {
   return (
     <header id='top'>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div className="container">
-          <a className="navbar-brand text-uppercase font-weight-bolder text-warning" href="#">FitnessHub</a>
+          <a className="navbar-brand text-uppercase font-weight-bolder text-warning" href="#">
+            <img src={logo} alt="Logo" width="30" height="26" class="d-inline-block align-text-top" />
+            &nbsp;&nbsp;FitnessHub
+          </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
