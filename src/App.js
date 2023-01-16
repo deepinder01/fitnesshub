@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Services from './components/Services/Services';
 import About from './components/About/About';
+import Amenities from './components/Amenities/Amenities';
 function App() {
   return (
     <>
@@ -17,6 +18,8 @@ function App() {
       <Services/>
       {/* About section */}
       <About/>
+      {/* Amenities section */}
+      <Amenities/>
     </>
   );
 }
