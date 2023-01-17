@@ -4,20 +4,20 @@ function Price() {
   return (
     <section className='wt-section' id='price'>
 
-      <div class='container'>
-        <div class='row justify-content-md-center text-center mb-lg-5 mb-4 pb-lg-5'>
-          <div class='col-md-12'>
-            <h2 class='h1'>
+      <div className='container'>
+        <div className='row justify-content-md-center text-center mb-lg-5 mb-4 pb-lg-5'>
+          <div className='col-md-12'>
+            <h2 className='h1'>
               Price &#38; Schdule
             </h2>
-            <p class='lorem'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, exercitationem!</p>
+            <p className='lorem'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, exercitationem!</p>
           </div>
         </div>
 
-      <div class='row'>
-        <div class='col-md-12'>
-          <div class='table-responsive'>
-            <table class='table u custom-table table-borderless'>
+      <div className='row'>
+        <div className='col-md-12'>
+          <div className='table-responsive'>
+            <table className='table u custom-table table-borderless'>
 
               <thead>
                 <tr>
@@ -35,14 +35,14 @@ function Price() {
                   <td>10:00am - 12:00pm</td>
                   <td>
                     <h6>Aerobic Exercises</h6>
-                    <span class='text-muted'>Indoor</span>
+                    <span className='text-muted'>Indoor</span>
                   </td>
                   <td>
                     <h6>&#8377;700</h6>
-                    <span class='text-muted'>Monthly</span>
+                    <span className='text-muted'>Monthly</span>
                   </td>
                   <td>
-                    <a href='' class='btn btn-primary btn-pill'>Join Now</a>
+                    <a href='' className='btn btn-primary btn-pill'>Join Now</a>
                   </td>
                 </tr>
 
@@ -51,14 +51,14 @@ function Price() {
                   <td>05:00am - 12:00pm</td>
                   <td>
                     <h6>Body-Building</h6>
-                    <span class='text-muted'>BW-Training</span>
+                    <span className='text-muted'>BW-Training</span>
                   </td>
                   <td>
                     <h6>&#8377;700</h6>
-                    <span class='text-muted'>Monthly</span>
+                    <span className='text-muted'>Monthly</span>
                   </td>
                   <td>
-                    <a href='' class='btn btn-primary btn-pill'>Join Now</a>
+                    <a href='' className='btn btn-primary btn-pill'>Join Now</a>
                   </td>
                 </tr>
 
@@ -67,14 +67,14 @@ function Price() {
                   <td>04:00am - 10:00am</td>
                   <td>
                     <h6>Yoga</h6>
-                    <span class='text-muted'>Outdoor</span>
+                    <span className='text-muted'>Outdoor</span>
                   </td>
                   <td>
                     <h6>&#8377;700</h6>
-                    <span class='text-muted'>Monthly</span>
+                    <span className='text-muted'>Monthly</span>
                   </td>
                   <td>
-                    <a href='' class='btn btn-primary btn-pill'>Join Now</a>
+                    <a href='' className='btn btn-primary btn-pill'>Join Now</a>
                   </td>
                 </tr>
 

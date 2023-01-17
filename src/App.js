@@ -9,7 +9,13 @@ import About from './components/About/About';
 import Amenities from './components/Amenities/Amenities';
 import Team from './components/Team/Team';
 import Price from './components/Price/Price';
+import Testimonials from './components/Testimonials/Testimonials';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Contact from './components/Contact/Contact';
+
 function App() {
+  AOS.init();
   return (
     <>
       {/* Header */}
@@ -26,6 +32,10 @@ function App() {
       <Team/>
       {/* Price */}
       <Price/>
+      {/* Testimonials */}
+      <Testimonials/>
+      {/* Contact */}
+      <Contact/>
     </>
   );
 }
