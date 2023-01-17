@@ -7,6 +7,7 @@ import Hero from './components/Hero/Hero';
 import Services from './components/Services/Services';
 import About from './components/About/About';
 import Amenities from './components/Amenities/Amenities';
+import Team from './components/Team/Team';
 function App() {
   return (
     <>
@@ -20,6 +21,8 @@ function App() {
       <About/>
       {/* Amenities section */}
       <Amenities/>
+      {/* Team Section */}
+      <Team/>
     </>
   );
 }
