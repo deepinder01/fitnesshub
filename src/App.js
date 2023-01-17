@@ -8,6 +8,7 @@ import Services from './components/Services/Services';
 import About from './components/About/About';
 import Amenities from './components/Amenities/Amenities';
 import Team from './components/Team/Team';
+import Price from './components/Price/Price';
 function App() {
   return (
     <>
@@ -23,6 +24,8 @@ function App() {
       <Amenities/>
       {/* Team Section */}
       <Team/>
+      {/* Price */}
+      <Price/>
     </>
   );
 }

@@ -20,7 +20,7 @@ function Services() {
             <div className='card mb-md-0 mb-3'>
               <a href='#'><img src={bodybuilding} alt='' className='card-img-top'/></a>
               <div className='card-body py-4'>
-                <strong className='mb-2 d-block'>Bodybuilding</strong>
+                <strong className='mb-2 d-block'>Body-Building</strong>
                 <h5 className='mb-4 text-warning'>World Class Coaching</h5>
                 <div className='mb-4'>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, magni sunt sit eaque molestias earum!</p>
