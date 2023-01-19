@@ -13,6 +13,7 @@ import Testimonials from './components/Testimonials/Testimonials';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
   AOS.init();
@@ -36,6 +37,8 @@ function App() {
       <Testimonials/>
       {/* Contact */}
       <Contact/>
+      {/* Footer */}
+      <Footer/>
     </>
   );
 }

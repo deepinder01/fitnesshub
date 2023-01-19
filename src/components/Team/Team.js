@@ -17,16 +17,16 @@ function Team() {
         </div>
 
         <div className='row'>
-          
+
           {/* team member 1 */}
           <div className='col-lg-3 col-sm-6 mb-5'>
-            <img src={team1} alt='team member' className='w-100 rounded-top'/>
+            <img src={team1} alt='team member' className='w-100 rounded-top' />
             <div className='wt-box-shadow-sm bg-white text-center rounded p-4'>
               <div className='mb-3'>
                 <h5 className='mb-1'>
                   Jessica Biel
                 </h5>
-                <small className='d-block font-style-normal text-uppercase text-primary wt-letter-spacing-x5'>
+                <small className='d-block font-style-normal text-uppercase text-primary-y wt-letter-spacing-x5'>
                   Ceo
                 </small>
               </div>
@@ -35,13 +35,13 @@ function Team() {
 
           {/* team member 2 */}
           <div className='col-lg-3 col-sm-6 mb-5'>
-            <img src={team2} alt='team member' className='w-100 rounded-top'/>
+            <img src={team2} alt='team member' className='w-100 rounded-top' />
             <div className='wt-box-shadow-sm bg-white text-center rounded p-4'>
               <div className='mb-3'>
                 <h5 className='mb-1'>
                   Giga Chad
                 </h5>
-                <small className='d-block font-style-normal text-uppercase text-primary wt-letter-spacing-x5'>
+                <small className='d-block font-style-normal text-uppercase text-primary-y wt-letter-spacing-x5'>
                   Sr. Trainer
                 </small>
               </div>
@@ -50,13 +50,13 @@ function Team() {
 
           {/* team member 3 */}
           <div className='col-lg-3 col-sm-6 mb-5'>
-            <img src={team3} alt='team member' className='w-100 rounded-top'/>
+            <img src={team3} alt='team member' className='w-100 rounded-top' />
             <div className='wt-box-shadow-sm bg-white text-center rounded p-4'>
               <div className='mb-3'>
                 <h5 className='mb-1'>
                   Bruce Willamson
                 </h5>
-                <small className='d-block font-style-normal text-uppercase text-primary wt-letter-spacing-x5'>
+                <small className='d-block font-style-normal text-uppercase text-primary-y wt-letter-spacing-x5'>
                   Trainer
                 </small>
               </div>
@@ -65,13 +65,13 @@ function Team() {
 
           {/* team member 4 */}
           <div className='col-lg-3 col-sm-6 mb-5'>
-            <img src={team4} alt='team member' className='w-100 rounded-top'/>
+            <img src={team4} alt='team member' className='w-100 rounded-top' />
             <div className='wt-box-shadow-sm bg-white text-center rounded p-4'>
               <div className='mb-3'>
                 <h5 className='mb-1'>
                   Johanna Care
                 </h5>
-                <small className='d-block font-style-normal text-uppercase text-primary wt-letter-spacing-x5'>
+                <small className='d-block font-style-normal text-uppercase text-primary-y wt-letter-spacing-x5'>
                   Operations Head
                 </small>
               </div>
