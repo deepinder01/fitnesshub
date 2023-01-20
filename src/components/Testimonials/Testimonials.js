@@ -16,7 +16,7 @@ function Testimonials() {
 
         {/* testimonial-1 */}
         <div className='row'>
-          <div className='col-lg-6 mb-7 mb-lg-0 aos-init aos-animate' data-aos='fade-right' data-aos-easing='linear' data-aos-delay='200'>
+          <div className='col-lg-6 mb-7 mb-lg-0 aos-init aos-animate' data-aos='fade-up' data-aos-easing='linear' data-aos-delay='200'>
             <blockquote className='wt-blockquote-v2 rounded mb-5'>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quisquam aperiam aliquam, quis optio iste.
             </blockquote>
@@ -34,7 +34,7 @@ function Testimonials() {
           </div>
       
           {/* testimonial-2 */}
-          <div className='col-lg-6 px-lg-5 aos-init aos-animate' data-aos='fade-left' data-aos-easing='linear' data-aos-delay='400'>
+          <div className='col-lg-6 px-lg-5 aos-init aos-animate' data-aos='fade-down' data-aos-easing='linear' data-aos-delay='400'>
             <blockquote className='wt-blockquote-v2 rounded mb-5'>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quisquam aperiam aliquam, quis optio iste.
             </blockquote>
