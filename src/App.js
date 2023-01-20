@@ -3,42 +3,54 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import 'bootstrap/dist/js/bootstrap.bundle.min';
 import "bootstrap/dist/js/bootstrap.min.js";
 import Header from './components/Header/Header';
-import Hero from './components/Hero/Hero';
-import Services from './components/Services/Services';
 import About from './components/About/About';
-import Amenities from './components/Amenities/Amenities';
 import Team from './components/Team/Team';
 import Price from './components/Price/Price';
-import Testimonials from './components/Testimonials/Testimonials';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import { Route, Routes, useNavigate, Link } from 'react-router-dom';
+import Home from './components/Home/Home';
 
 function App() {
   AOS.init();
   return (
     <>
       {/* Header */}
-      <Header/>
-      {/* Hero section */}
-      <Hero/>
-      {/* Services section */}
-      <Services/>
-      {/* About section */}
-      <About/>
-      {/* Amenities section */}
-      <Amenities/>
-      {/* Team Section */}
-      <Team/>
-      {/* Price */}
-      <Price/>
-      {/* Testimonials */}
-      <Testimonials/>
-      {/* Contact */}
-      <Contact/>
+      <Header />
+      <Routes>
+        {/* Home */}
+        <Route
+          path='/'
+          element={<Home />}
+        />
+        {/* About section */}
+        <Route
+          path='/about'
+          element={<About />}
+        />
+
+        {/* Team Section */}
+        <Route
+          path='/team'
+          element={<Team />}
+        />
+
+        {/* Price */}
+        <Route
+          path='/price'
+          element={<Price />}
+        />
+
+        {/* Contact */}
+        <Route
+          path='/contact'
+          element={<Contact />}
+        />
+      </Routes>
       {/* Footer */}
-      <Footer/>
+      <Footer />
     </>
   );
 }

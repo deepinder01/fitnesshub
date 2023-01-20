@@ -15,37 +15,39 @@ function Testimonials() {
         </div>
 
         {/* testimonial-1 */}
-        <div className='col-lg-6 mb-7 mb-lg-0 aos-init aos-animate' data-aos='fade-right' data-aos-easing='linear' data-aos-delay='200'>
-          <blockquote className='wt-blockquote-v2 rounded mb-5'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quisquam aperiam aliquam, quis optio iste.
-          </blockquote>
-          <div className='media wt-font-size-90'>
-            <img src={avatar1} alt='avatar' className='d-flex align-self-center rounded-circle wt-blockquote-v2__image wt-box-shadow-lg mx-3 mt-2'/>
-            <div className='media-body align-self-center'>
-              <strong className='d-block'>
-                Sheryl Winfrey
-              </strong>
-              <span className='wt-font-size-75 text-dark'>
-                XL Director
-              </span>
+        <div className='row'>
+          <div className='col-lg-6 mb-7 mb-lg-0 aos-init aos-animate' data-aos='fade-right' data-aos-easing='linear' data-aos-delay='200'>
+            <blockquote className='wt-blockquote-v2 rounded mb-5'>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quisquam aperiam aliquam, quis optio iste.
+            </blockquote>
+            <div className='media wt-font-size-90'>
+              <img src={avatar1} alt='avatar' height={100} className='d-flex align-self-center rounded-circle wt-blockquote-v2__image wt-box-shadow-lg mx-3 mt-2' />
+              <div className='media-body align-self-center'>
+                <strong className='d-block'>
+                  Sheryl Winfrey
+                </strong>
+                <span className='wt-font-size-75 text-dark'>
+                  XL Director
+                </span>
+              </div>
             </div>
           </div>
-        </div>
-
-      {/* testimonial-2 */}
-      <div className='col-lg-6 px-lg-5 aos-init aos-animate' data-aos='fade-left' data-aos-easing='linear' data-aos-delay='400'>
-          <blockquote className='wt-blockquote-v2 rounded mb-5'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quisquam aperiam aliquam, quis optio iste.
-          </blockquote>
-          <div className='media wt-font-size-90'>
-            <img src={avatar2} alt='avatar' className='d-flex align-self-center rounded-circle wt-blockquote-v2__image wt-box-shadow-lg mx-3 mt-2'/>
-            <div className='media-body align-self-center'>
-              <strong className='d-block'>
-                John Doe
-              </strong>
-              <span className='wt-font-size-75 text-dark'>
-                James Bond
-              </span>
+      
+          {/* testimonial-2 */}
+          <div className='col-lg-6 px-lg-5 aos-init aos-animate' data-aos='fade-left' data-aos-easing='linear' data-aos-delay='400'>
+            <blockquote className='wt-blockquote-v2 rounded mb-5'>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quisquam aperiam aliquam, quis optio iste.
+            </blockquote>
+            <div className='media wt-font-size-90'>
+              <img src={avatar2} alt='avatar' height={100} className='d-flex align-self-center rounded-circle wt-blockquote-v2__image wt-box-shadow-lg mx-3 mt-2' />
+              <div className='media-body align-self-center'>
+                <strong className='d-block'>
+                  John Doe
+                </strong>
+                <span className='wt-font-size-75 text-dark'>
+                  James Bond
+                </span>
+              </div>
             </div>
           </div>
         </div>

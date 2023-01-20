@@ -11,10 +11,10 @@ function Amenities() {
             </h2>
             <p className='lorem'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, perferendis. Qui fuga dignissimos nulla amet?</p>
           </div>
-
-          {/* Features Block */}
-
-          <div className='col-md-4 cards'>
+        </div>
+        {/* Features Block */}
+        <div className='row'>
+          <div className='col-md-4 card'>
             <div className='bg-white p-5 mb-4 text-center rounded-lg rounded-mg'>
               <FaBath className='display-4 text-primary-y mb-4' />
               <h6 className='my-2'>Stream Bath</h6>
@@ -22,7 +22,7 @@ function Amenities() {
             </div>
           </div>
 
-          <div className='col-md-4 cards'>
+          <div className='col-md-4 card'>
             <div className='bg-white p-5 mb-4 text-center rounded-lg rounded-mg'>
               <FaWifi className='display-4 text-primary-y mb-4' />
               <h6 className='my-2'>Wi- Fi</h6>
@@ -30,14 +30,13 @@ function Amenities() {
             </div>
           </div>
 
-          <div className='col-md-4 cards'>
+          <div className='col-md-4 card'>
             <div className='bg-white p-5 mb-4 text-center rounded-lg rounded-mg'>
               <FaFan className='display-4 text-primary-y mb-4' />
               <h6 className='my-2'>Air Conditiones</h6>
               <p className='text-muted lorem'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eligendi quos tenetur sed animi perspiciatis.</p>
             </div>
           </div>
-
         </div>
       </div>
     </section >

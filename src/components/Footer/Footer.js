@@ -11,24 +11,24 @@ function Footer() {
           </div>
           <div className='col-md-4 align-self-center'>
             <ul className='list-inline text-center text-md-right mb-0'>
-              <li className='list-inline-item mx-2' data-toggle='tooltip' data-placement='top' title='facebook'>
-                <a href=''>
-                  <FaFacebook className='text-white'/>
+              <li className='list-inline-item mx-2' title='Facebook'>
+                <a href='https://www.facebook.com/'>
+                  <FaFacebook className='text-white' />
                 </a>
               </li>
-              <li className='list-inline-item mx-2' data-toggle='tooltip' data-placement='top' title='facebook'>
-                <a href=''>
-                  <FaTwitter className='text-white'/>
+              <li className='list-inline-item mx-2' title='Twitter'>
+                <a href='https://twitter.com/'>
+                  <FaTwitter className='text-white' />
                 </a>
               </li>
-              <li className='list-inline-item mx-2' data-toggle='tooltip' data-placement='top' title='facebook'>
-                <a href=''>
-                  <FaInstagram className='text-white'/>
+              <li className='list-inline-item mx-2' title='Instagram'>
+                <a href='https://www.instagram.com/'>
+                  <FaInstagram className='text-white' />
                 </a>
               </li>
-              <li className='list-inline-item mx-2' data-toggle='tooltip' data-placement='top' title='facebook'>
-                <a href=''>
-                  <FaYoutube className='text-white'/>
+              <li className='list-inline-item mx-2' title='Youtube'>
+                <a href='https://www.youtube.com/'>
+                  <FaYoutube className='text-white' />
                 </a>
               </li>
             </ul>

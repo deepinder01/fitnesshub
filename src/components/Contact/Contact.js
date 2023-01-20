@@ -21,14 +21,7 @@ function Contact() {
         </div> */}
 
         <div className='row'>
-          <div className="mapouter">
-            <div className="gmap_canvas">
-              <iframe width="800" height="424" id="gmap_canvas" src={"https://maps.google.com/maps?q=FZ%20GYM%20&%20SPA%20-%20Gym%20in%20Derabassi,%201st%20FLOOR%20,%20PARAS%20SQUARE%20BANK%20BUILDING%20CHD%20Ambala,%20Road,%20Dera%20Bassi,%20Punjab%20140507,%20India&t=&z=13&ie=UTF8&iwloc=&output=embed"} frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-              </iframe>
-              <br />
-              <a href="https://www.embedgooglemap.net">google maps insert</a>
-            </div>
-          </div>
+        <iframe title="location" src={"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3434.9009725357064!2d76.83987901518071!3d30.580340800012017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x46e49afbed14c939!2sFZ%20GYM%20%26%20SPA%20-%20Gym%20in%20Derabassi!5e0!3m2!1sen!2sin!4v1674134157472!5m2!1sen!2sin"} width="100%" height="600" style={{border: 0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </section>
