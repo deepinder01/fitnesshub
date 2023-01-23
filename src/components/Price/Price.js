@@ -6,7 +6,7 @@ function Price() {
 
       <div className='container'>
         <div className='row justify-content-md-center text-center mb-lg-5 mb-4 pb-lg-5'>
-          <div className='col-md-12'>
+          <div className='col-md-12 text-center mx-auto mb-0'>
             <h2 className='h1'>
               Price &#38; Schdule
             </h2>
@@ -15,7 +15,7 @@ function Price() {
         </div>
 
       <div className='row'>
-        <div className='col-md-12'>
+        <div className='col-md-12 text-center mx-auto mb-0'>
           <div className='table-responsive'>
             <table className='table u custom-table table-borderless'>
 

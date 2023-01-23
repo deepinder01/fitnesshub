@@ -21,8 +21,8 @@ function Testimonials() {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quisquam aperiam aliquam, quis optio iste.
             </blockquote>
             <div className='media wt-font-size-90'>
-              <img src={avatar1} alt='avatar' height={100} className='d-flex align-self-center rounded-circle wt-blockquote-v2__image wt-box-shadow-lg mx-3 mt-2' />
-              <div className='media-body align-self-center'>
+              <img src={avatar1} alt='avatar' height={100} className='rounded-circle wt-blockquote-v2__image wt-box-shadow-lg mr-3 mt-2' />
+              <div className='media-body'>
                 <strong className='d-block'>
                   Sheryl Winfrey
                 </strong>
@@ -39,8 +39,8 @@ function Testimonials() {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quisquam aperiam aliquam, quis optio iste.
             </blockquote>
             <div className='media wt-font-size-90'>
-              <img src={avatar2} alt='avatar' height={100} className='d-flex align-self-center rounded-circle wt-blockquote-v2__image wt-box-shadow-lg mx-3 mt-2' />
-              <div className='media-body align-self-center'>
+              <img src={avatar2} alt='avatar' height={100} className='rounded-circle wt-blockquote-v2__image wt-box-shadow-lg mr-3 mt-2' />
+              <div className='media-body'>
                 <strong className='d-block'>
                   John Doe
                 </strong>
