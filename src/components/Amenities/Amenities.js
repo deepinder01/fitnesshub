@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaBath, FaFan, FaWifi } from 'react-icons/fa'
+import { FaBasketballBall, FaCar, FaFan, FaWifi } from 'react-icons/fa'
 function Amenities() {
   return (
     <section className='wt-section bgs-primary'>
@@ -9,34 +9,41 @@ function Amenities() {
             <h2 className='mb-md-2 display-4 font-weight-normal'>
               Amenities
             </h2>
-            <p className='lorem'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, perferendis. Qui fuga dignissimos nulla amet?</p>
+            <p className='lorem'>FitnessHub has the best gym amenities to help you workout, train, recover and more.</p>
           </div>
         </div>
         {/* Features Block */}
         <div className='row'>
-          <div className='col-md-4 card'>
-            <div className='bg-white p-5 mb-4 text-center rounded-lg rounded-mg'>
-              <FaBath className='display-4 text-primary-y mb-4' />
-              <h6 className='my-2'>Stream Bath</h6>
-              <p className='text-muted lorem'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eligendi quos tenetur sed animi perspiciatis.</p>
+          <div className='col-lg-4 mb-3'>
+            <div className='card'>
+              <div className='rounded bg-white p-5 mb-4 text-center '>
+                <FaCar className='display-4 text-primary-y mb-4' />
+                <h6 className='my-2'>Vehicle Parking</h6>
+                <p className='text-muted lorem'>FitnessHub has a plenty of parking space available for vehicles.This is one of the few places in the area with huge parking.</p>
+              </div>
             </div>
           </div>
 
-          <div className='col-md-4 card'>
-            <div className='bg-white p-5 mb-4 text-center rounded-lg rounded-mg'>
-              <FaWifi className='display-4 text-primary-y mb-4' />
-              <h6 className='my-2'>Wi- Fi</h6>
-              <p className='text-muted lorem'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eligendi quos tenetur sed animi perspiciatis.</p>
+          <div className='col-lg-4 mb-3'>
+            <div className='card'>
+              <div className='rounded bg-white p-5 mb-4 text-center '>
+                <FaWifi className='display-4 text-primary-y mb-4' />
+                <h6 className='my-2'>Wi- Fi</h6>
+                <p className='text-muted lorem'>Stream music or videos, check in on social media, or just keep in touch with high-speed wireless internet access!</p>
+              </div>
             </div>
           </div>
 
-          <div className='col-md-4 card'>
-            <div className='bg-white p-5 mb-4 text-center rounded-lg rounded-mg'>
-              <FaFan className='display-4 text-primary-y mb-4' />
-              <h6 className='my-2'>Air Conditiones</h6>
-              <p className='text-muted lorem'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eligendi quos tenetur sed animi perspiciatis.</p>
+          <div className='col-lg-4 mb-3'>
+            <div className='card'>
+              <div className='rounded bg-white p-5 mb-4 text-center '>
+                <FaBasketballBall className='display-4 text-primary-y mb-4' />
+                <h6 className='my-2'>Basketball Courts</h6>
+                <p className='text-muted lorem'>Our FitnessHub's basketball courts are always available for your next pickup game or even full-fledged match. Game on!.</p>
+              </div>
             </div>
           </div>
+
         </div>
       </div>
     </section >
