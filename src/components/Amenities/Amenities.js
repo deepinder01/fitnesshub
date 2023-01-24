@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaBasketballBall, FaCar, FaFan, FaWifi } from 'react-icons/fa'
+import { FaBasketballBall, FaCar, FaWifi } from 'react-icons/fa'
 function Amenities() {
   return (
     <section className='wt-section bgs-primary'>

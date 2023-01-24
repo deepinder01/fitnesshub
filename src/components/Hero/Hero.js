@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <section className='wt-section hero-section hero-large'>
+    <section className='wt-section hero-section'>
       <div className='container row div-center'>
         <div className='col-md-6 text-warning'>
           <h1 className='text-uppercase font-weight-bold' style={{color: '#efb624'}}>Ultimate Fitness</h1>
