@@ -4,7 +4,7 @@ import logo from '../../images/logo.png'
 import { toast } from 'react-toastify';
 import { FaPowerOff } from 'react-icons/fa'
 import { SlLocationPin } from 'react-icons/sl'
-
+import '../../styles/header.css'
 function Header() {
   let navigate = useNavigate();
   const handleLogout = () => {

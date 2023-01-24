@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaBasketballBall, FaCar, FaWifi } from 'react-icons/fa'
+import '../../styles/amenities.css'
 function Amenities() {
   return (
     <section className='wt-section bgs-primary'>
@@ -18,7 +19,7 @@ function Amenities() {
             <div className='card'>
               <div className='rounded bg-white p-5 mb-4 text-center '>
                 <FaCar className='display-4 text-primary-y mb-4' />
-                <h6 className='my-2'>Vehicle Parking</h6>
+                <h6 className='amenities-heading'>Vehicle Parking</h6>
                 <p className='text-muted lorem'>FitnessHub has a plenty of parking space available for vehicles.This is one of the few places in the area with huge parking.</p>
               </div>
             </div>
@@ -28,7 +29,7 @@ function Amenities() {
             <div className='card'>
               <div className='rounded bg-white p-5 mb-4 text-center '>
                 <FaWifi className='display-4 text-primary-y mb-4' />
-                <h6 className='my-2'>Wi- Fi</h6>
+                <h6 className='amenities-heading'>Wi- Fi</h6>
                 <p className='text-muted lorem'>Stream music or videos, check in on social media, or just keep in touch with high-speed wireless internet access!</p>
               </div>
             </div>
@@ -38,7 +39,7 @@ function Amenities() {
             <div className='card'>
               <div className='rounded bg-white p-5 mb-4 text-center '>
                 <FaBasketballBall className='display-4 text-primary-y mb-4' />
-                <h6 className='my-2'>Basketball Courts</h6>
+                <h6 className='amenities-heading'>Basketball Courts</h6>
                 <p className='text-muted lorem'>Our FitnessHub's basketball courts are always available for your next pickup game or even full-fledged match. Game on!.</p>
               </div>
             </div>

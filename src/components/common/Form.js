@@ -3,6 +3,7 @@ import { Form, Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import login from '../../images/login.jpg'
 import register from '../../images/register.jpg'
+import '../../styles/authform.css'
 function BasicTextFields({ title, setEmail, setPassword, handleAction }) {
 
   const linkPage = () => {
@@ -25,7 +26,7 @@ function BasicTextFields({ title, setEmail, setPassword, handleAction }) {
   }
 
   return (
-    <div className='wt-section hero-section hero-large' style={{backgroundImage: title==='Login' ?  `url(${login})` : `url(${register})`}}> 
+    <div className='wt-section auth-section' style={{backgroundImage: title==='Login' ?  `url(${login})` : `url(${register})`}}> 
       <div className='container div-center text-white'>
         <div className='row justify-content-center align-items-center'>
           <div className='col-10 col-sm-10 col-md-8 col-lg-4 col-xl-4'>
@@ -44,7 +45,7 @@ function BasicTextFields({ title, setEmail, setPassword, handleAction }) {
               {title}
             </Button>
             <Form.Group className="mb-5" controlId="formBasicEmail">
-              <Form.Text className="h3 text-muted">
+              <Form.Text className="h3 text-warning">
                 {linkPage()}
               </Form.Text>
             </Form.Group>

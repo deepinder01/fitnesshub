@@ -1,6 +1,7 @@
 import React from 'react'
 import avatar1 from '../../images/avatars/avatar1.jpg'
 import avatar2 from '../../images/avatars/avatar2.jpg'
+import '../../styles/testimonials.css'
 function Testimonials() {
   return (
     <section className='wt-section'>
