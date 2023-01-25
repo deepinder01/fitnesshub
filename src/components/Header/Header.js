@@ -1,8 +1,8 @@
-import React from 'react'
+import { Button } from 'react-bootstrap'
 import { Link, useNavigate } from 'react-router-dom'
 import logo from '../../images/logo.png'
 import { toast } from 'react-toastify';
-import { FaPowerOff } from 'react-icons/fa'
+import { GoSignOut } from 'react-icons/go'
 import '../../styles/header.css'
 function Header() {
   let navigate = useNavigate();
@@ -42,7 +42,11 @@ function Header() {
               </li>
             </ul>
             <div className="d-flex">
-              <FaPowerOff scale={2} className='text-danger' onClick={handleLogout}/>
+              <ul className="nav">
+                <li className="nav-item">
+                  <a className="nav-link text-light btn btn-outline-warning" onClick={handleLogout}><GoSignOut size={20} className='text-warning' /> Logout</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
