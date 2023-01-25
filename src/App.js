@@ -37,6 +37,7 @@ function App() {
         .then((response) => {
           navigate('/home');
           sessionStorage.setItem('Auth Token', response._tokenResponse.refreshToken);
+          sessionStorage.setItem('Email', response.user.email);
           toast.success('Login Successful');
         })
         .catch((error) => {
@@ -52,6 +53,7 @@ function App() {
       createUserWithEmailAndPassword(authentication, email, password)
         .then((response) => {
           navigate('/home');
+          sessionStorage.setItem('Email', response.user.email);
           sessionStorage.setItem('Auth Token', response._tokenResponse.refreshToken);
           toast.success('User Created');
         })
@@ -70,8 +72,8 @@ function App() {
       {/* Header */}
       {authToken ? <Header /> : <></>}
       <Routes>
-      {/* Login */}
-      <Route
+        {/* Login */}
+        <Route
           path='/'
           element={
             <AuthForm

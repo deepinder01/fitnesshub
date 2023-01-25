@@ -9,6 +9,7 @@ function Header() {
   let navigate = useNavigate();
   const handleLogout = () => {
     sessionStorage.removeItem('Auth Token');
+    sessionStorage.removeItem('Email');
     navigate('/');
     toast.success('Logged Out Successfully')
   }
