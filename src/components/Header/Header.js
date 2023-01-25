@@ -3,7 +3,6 @@ import { Link, useNavigate } from 'react-router-dom'
 import logo from '../../images/logo.png'
 import { toast } from 'react-toastify';
 import { FaPowerOff } from 'react-icons/fa'
-import { SlLocationPin } from 'react-icons/sl'
 import '../../styles/header.css'
 function Header() {
   let navigate = useNavigate();
@@ -12,9 +11,6 @@ function Header() {
     sessionStorage.removeItem('Email');
     navigate('/');
     toast.success('Logged Out Successfully')
-  }
-  const handleLocation = () => {
-    navigate('/contact');
   }
   return (
     <header style={{ maxWidth: '100vw' }} id='top'>
@@ -47,7 +43,6 @@ function Header() {
             </ul>
             <div className="d-flex">
               <FaPowerOff scale={2} className='text-danger' onClick={handleLogout}/>
-              <SlLocationPin className='text-warning' onClick={handleLocation}/>
             </div>
           </div>
         </div>

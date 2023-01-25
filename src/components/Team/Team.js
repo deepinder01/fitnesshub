@@ -21,7 +21,7 @@ function Team() {
           {/* team member 1 */}
           <div className='col-lg-3 col-sm-6 mb-5'>
             <img src={team1} alt='team member' className='w-100 rounded-top' />
-            <div className='wt-box-shadow-sm bg-white text-center rounded p-4'>
+            <div className=' bg-white text-center rounded p-4'>
               <div className='mb-3'>
                 <h5 className='mb-1'>
                   Jessica Biel
@@ -36,7 +36,7 @@ function Team() {
           {/* team member 2 */}
           <div className='col-lg-3 col-sm-6 mb-5'>
             <img src={team2} alt='team member' className='w-100 rounded-top' />
-            <div className='wt-box-shadow-sm bg-white text-center rounded p-4'>
+            <div className=' bg-white text-center rounded p-4'>
               <div className='mb-3'>
                 <h5 className='mb-1'>
                   Giga Chad
@@ -51,7 +51,7 @@ function Team() {
           {/* team member 3 */}
           <div className='col-lg-3 col-sm-6 mb-5'>
             <img src={team3} alt='team member' className='w-100 rounded-top' />
-            <div className='wt-box-shadow-sm bg-white text-center rounded p-4'>
+            <div className=' bg-white text-center rounded p-4'>
               <div className='mb-3'>
                 <h5 className='mb-1'>
                   Bruce Willamson
@@ -66,7 +66,7 @@ function Team() {
           {/* team member 4 */}
           <div className='col-lg-3 col-sm-6 mb-5'>
             <img src={team4} alt='team member' className='w-100 rounded-top' />
-            <div className='wt-box-shadow-sm bg-white text-center rounded p-4'>
+            <div className=' bg-white text-center rounded p-4'>
               <div className='mb-3'>
                 <h5 className='mb-1'>
                   Johanna Care

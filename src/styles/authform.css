@@ -14,18 +14,18 @@
   }
 }
 
-.glass{
+.glass {
   border-radius: 1rem;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  backdrop-filter: blur( 2px );
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(2px);
 }
 
-.glass:hover{
-  transition: 1.5s cubic-bezier(0.96, -0.04, 0.56, 1.15);
+.glass:hover {
+  transition: 0.5s cubic-bezier(0.96, -0.04, 0.56, 1.15);
   background: rgba(67, 67, 67, 0.15);
   box-shadow: 0 8px 32px 0 rgba(28, 28, 28, 0.37);
-  backdrop-filter: blur( 8px );
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 1rem;
   z-index: 10;
 }
