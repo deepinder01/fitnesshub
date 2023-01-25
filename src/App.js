@@ -18,7 +18,6 @@ import { app } from './components/firebase-config';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useEffect, useState } from 'react'
-
 function App() {
   const navigate = useNavigate();
   useEffect(() => {

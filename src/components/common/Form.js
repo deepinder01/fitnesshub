@@ -27,9 +27,9 @@ function BasicTextFields({ title, setEmail, setPassword, handleAction }) {
 
   return (
     <div className='wt-section auth-section' style={{backgroundImage: title==='Login' ?  `url(${login})` : `url(${register})`}}> 
-      <div className='container div-center text-white'>
-        <div className='row justify-content-center align-items-center'>
-          <div className='col-10 col-sm-10 col-md-8 col-lg-4 col-xl-4'>
+      <div className='container text-white'>
+        <div className='row justify-content-center align-items-center div-center'>
+          <div className='p-5 col-10 col-sm-10 col-md-8 col-lg-4 col-xl-4 glass'>
             <h3 id='login' className="mt-5 mb-5 h1 text-center"><span className='text-warning'>F</span>itness<span className='text-warning'>H</span>ub {title}</h3>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label className="mb-3 h3">Email address</Form.Label>

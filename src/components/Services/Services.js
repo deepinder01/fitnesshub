@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import aerobics from '../../images/services/aerobics.jpg'
 import bodybuilding from '../../images/services/bodybuilding.jpg'
 import yoga from '../../images/services/yoga.jpg'
@@ -18,7 +19,7 @@ function Services() {
           {/* card-1 */}
           <div className='col-lg-4'>
             <div className='card mb-md-0 mb-3'>
-              <a href='#'><img src={bodybuilding} alt='' className='card-img-top'/></a>
+              <Link to='../price'><img src={bodybuilding} alt='' className='card-img-top'/></Link>
               <div className='card-body py-4'>
                 <strong className='mb-2 d-block'>Body-Building</strong>
                 <h5 className='mb-4 text-warning'>High-Intensity Interval Training (HIIT)</h5>
@@ -33,7 +34,7 @@ function Services() {
           {/* card-2 */}
           <div className='col-lg-4'>
             <div className='card mb-md-0 mb-3'>
-              <a href='#'><img src={yoga} alt='' className='card-img-top'/></a>
+              <Link to='../price'><img src={yoga} alt='' className='card-img-top'/></Link>
               <div className='card-body py-4'>
                 <strong className='mb-2 d-block'>Yoga</strong>
                 <h5 className='mb-4 text-warning'>Outdoor Coaching and Instruction</h5>
@@ -47,7 +48,7 @@ function Services() {
           {/* card-3 */}
           <div className='col-lg-4'>
             <div className='card mb-md-0 mb-3'>
-              <a href='#'><img src={aerobics} alt='' className='card-img-top'/></a>
+              <Link to='../price'><img src={aerobics} alt='' className='card-img-top'/></Link>
               <div className='card-body py-4'>
                 <strong className='mb-2 d-block'>Aerobics</strong>
                 <h5 className='mb-4 text-warning'>World Class Aerobics Trainers</h5>

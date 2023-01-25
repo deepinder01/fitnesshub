@@ -19,7 +19,7 @@ function Header() {
     <header style={{ maxWidth: '100vw' }} id='top'>
       <nav style={{ maxWidth: '100vw' }} className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div className="container">
-          <a className="navbar-brand text-uppercase font-weight-bolder text-warning" href="/">
+          <a className="navbar-brand text-uppercase font-weight-bolder text-warning" href="/home">
             <img src={logo} alt="Logo" width="30" height="26" className="d-inline-block align-text-top" />
             &nbsp;&nbsp;FitnessHub
           </a>
@@ -29,7 +29,7 @@ function Header() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" to='/' >Home</Link>
+                <Link className="nav-link active" to='/home' >Home</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to='about'>About</Link>
