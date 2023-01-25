@@ -18,7 +18,7 @@ function Services() {
 
           {/* card-1 */}
           <div className='col-lg-4'>
-            <div className='card mb-md-0 mb-3'>
+            <div className='card mb-md-2 mb-3'>
               <Link to='../price'><img src={bodybuilding} alt='' className='card-img-top'/></Link>
               <div className='card-body py-4'>
                 <strong className='mb-2 d-block'>Body-Building</strong>
@@ -33,7 +33,7 @@ function Services() {
           
           {/* card-2 */}
           <div className='col-lg-4'>
-            <div className='card mb-md-0 mb-3'>
+            <div className='card mb-md-2 mb-3'>
               <Link to='../price'><img src={yoga} alt='' className='card-img-top'/></Link>
               <div className='card-body py-4'>
                 <strong className='mb-2 d-block'>Yoga</strong>
@@ -47,7 +47,7 @@ function Services() {
           
           {/* card-3 */}
           <div className='col-lg-4'>
-            <div className='card mb-md-0 mb-3'>
+            <div className='card mb-md-2 mb-3'>
               <Link to='../price'><img src={aerobics} alt='' className='card-img-top'/></Link>
               <div className='card-body py-4'>
                 <strong className='mb-2 d-block'>Aerobics</strong>

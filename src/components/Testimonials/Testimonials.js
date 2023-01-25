@@ -6,47 +6,47 @@ function Testimonials() {
   return (
     <section className='wt-section'>
       <div className='container'>
-        <div className='row justify-content-md-center text-center pb-lg-4 mb-lg-5 mb-4'>
+        <div className='row justify-content-center text-center pb-lg-4 mb-lg-5 mb-3'>
           <div className='col-md-8 text-center w-md-50 mx-auto mb-0'>
             <h2 className='mb-md-2'>
               Testimonials
             </h2>
-            <p className='lorem'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, esse.</p>
+            <p className='lorem'>We have best training and trainers for you. FitnessHub has changed the lives of many people.Super friendly atmosphere,Every session is different and fun.The trainers really push,motivate and helps us to exceed our limits and achieve our goals.</p>
           </div>
         </div>
 
-        {/* testimonial-1 */}
         <div className='row'>
-          <div className='col-lg-6 mb-7 mb-lg-0 aos-init aos-animate' data-aos='fade-up' data-aos-easing='linear' data-aos-delay='200'>
-            <blockquote className='wt-blockquote-v2 rounded mb-5'>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quisquam aperiam aliquam, quis optio iste.
+        {/* testimonial-1 */}
+          <div className='col-lg-6 aos-init aos-animate' data-aos='fade-up' data-aos-easing='linear' data-aos-delay='200'>
+            <blockquote className='wt-blockquote mb-3'>
+              I have been working out in it for the last 4 months. Gym environment is too good and very cooperative.Trainers are really excellent.
             </blockquote>
-            <div className='media wt-font-size-90'>
-              <img src={avatar1} alt='avatar' height={100} className='rounded-circle wt-blockquote-v2__image wt-box-shadow-lg mr-3 mt-2' />
+            <div className='media d-flex align-items-center justify-content-start'>
+              <img src={avatar1} alt='avatar' width={100} className='rounded mx-3 mt-2' />
               <div className='media-body'>
-                <strong className='d-block'>
+                <h5>
                   Sheryl Winfrey
-                </strong>
-                <span className='wt-font-size-75 text-dark'>
-                  XL Director
+                </h5>
+                <span className='text-muted display-12'>
+                  Director (SP Systems) 
                 </span>
               </div>
             </div>
           </div>
-      
+
           {/* testimonial-2 */}
-          <div className='col-lg-6 px-lg-5 aos-init aos-animate' data-aos='fade-down' data-aos-easing='linear' data-aos-delay='400'>
-            <blockquote className='wt-blockquote-v2 rounded mb-5'>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quisquam aperiam aliquam, quis optio iste.
+          <div className='col-lg-6 px-lg-5 aos-init aos-animate' data-aos='fade-down' data-aos-easing='linear' data-aos-duration='600' data-aos-delay='300'>
+            <blockquote className='wt-blockquote mb-3'>
+              Trainers have done their jobs very properly. All the trainers are very good and hardworking. Gym is really so nice.
             </blockquote>
-            <div className='media wt-font-size-90'>
-              <img src={avatar2} alt='avatar' height={100} className='rounded-circle wt-blockquote-v2__image wt-box-shadow-lg mr-3 mt-2' />
+            <div className='media d-flex align-items-center justify-content-start'>
+              <img src={avatar2} alt='avatar' width={100} className='rounded mx-3 mt-2' />
               <div className='media-body'>
-                <strong className='d-block'>
+                <h5>
                   John Doe
-                </strong>
-                <span className='wt-font-size-75 text-dark'>
-                  James Bond
+                </h5>
+                <span className='text-muted display-12'>
+                  Owner (NH Tech.)
                 </span>
               </div>
             </div>
