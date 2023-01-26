@@ -5,7 +5,7 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import AuthForm from './components/common/Form';
 import Header from './components/Header/Header';
 import About from './components/About/About';
-import Team from './components/Team/Team';
+import Trainers from './components/Trainers/Trainers';
 import Price from './components/Price/Price';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -106,10 +106,10 @@ function App() {
           element={<About />}
         />
 
-        {/* Team Section */}
+        {/* Trainers Section */}
         <Route
-          path='/team'
-          element={<Team />}
+          path='/trainers'
+          element={<Trainers />}
         />
 
         {/* Price */}

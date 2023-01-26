@@ -4,8 +4,8 @@ import { useState } from 'react'
 function FormModal(props) {
 
   const userEmail = props.useremail;
-  const exerciseType = props.exercisetype;
-  console.log(userEmail);
+  const exerciseName = props.exercisename;
+  const exerciseTime = props.exercisetime;
   const [fullName, setFullName] = useState('');
   const [address, setAddress] = useState('');
   const [gender, setGender] = useState('');
@@ -26,7 +26,7 @@ function FormModal(props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          {exerciseType}
+          {exerciseName} &nbsp;&nbsp;&nbsp;&nbsp; Timings: {exerciseTime}
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
