@@ -1,6 +1,8 @@
 import { Button, Modal, Form, Row, Col } from 'react-bootstrap'
 import { useState } from 'react'
-
+import { db } from '../firebase-config'
+import { doc, setDoc } from "firebase/firestore";
+import { toast } from 'react-toastify';
 function FormModal(props) {
 
   const userEmail = props.useremail;
@@ -8,13 +10,42 @@ function FormModal(props) {
   const exerciseTime = props.exercisetime;
   const [fullName, setFullName] = useState('');
   const [address, setAddress] = useState('');
-  const [gender, setGender] = useState('');
+  const [gender, setGender] = useState('Male');
   const [dateOfJoining, setDateOfJoining] = useState('');
   const [age, setAge] = useState(0);
-  const [duration, setDuration] = useState(0);
+  const [duration, setDuration] = useState(1);
+  const [phoneNumber, setPhoneNumber] = useState(0);
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
+    const data = {
+      userEmail: userEmail,
+      exerciseName: exerciseName,
+      exerciseTime: exerciseTime,
+      fullName: fullName,
+      address: address,
+      gender: gender,
+      dateOfJoining: dateOfJoining,
+      age: age,
+      duration: duration,
+      phoneNumber: phoneNumber
+    };
     event.preventDefault();
+    try {
+      await setDoc(doc(db, "joinings", userEmail), data).then(() => {
+        toast.success('Joining Successful');
+        console.log("Document has been added successfully");
+      })
+        .catch(error => {
+          console.error(error);
+          toast.error('Joining Failed');
+        })
+
+    } catch (error) {
+      console.error('Error adding document: ', error);
+      toast.error('Joining Failed');
+    }
+    props.onHide()
+
   }
 
   return (
@@ -73,7 +104,7 @@ function FormModal(props) {
 
             <Form.Group as={Col} controlId="formGridPhone">
               <Form.Label>Phone Number</Form.Label>
-              <Form.Control type="number" placeholder="Phone Number" />
+              <Form.Control type="number" value={phoneNumber} onChange={(e) => { setPhoneNumber(e.target.value) }} placeholder="Phone Number" />
             </Form.Group>
           </Row>
 
