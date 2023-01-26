@@ -16,7 +16,7 @@ function Testimonials() {
         </div>
 
         <div className='row'>
-        {/* testimonial-1 */}
+          {/* testimonial-1 */}
           <div className='col-lg-6 aos-init aos-animate' data-aos='fade-up' data-aos-easing='linear' data-aos-delay='200'>
             <blockquote className='wt-blockquote mb-3'>
               I have been working out in it for the last 4 months. Gym environment is too good and very cooperative.Trainers are really excellent.
@@ -27,8 +27,8 @@ function Testimonials() {
                 <h5>
                   Sheryl Winfrey
                 </h5>
-                <span className='text-muted display-12'>
-                  Director (SP Systems) 
+                <span className='text-muted'>
+                  Director (SP Systems)
                 </span>
               </div>
             </div>
@@ -45,7 +45,7 @@ function Testimonials() {
                 <h5>
                   John Doe
                 </h5>
-                <span className='text-muted display-12'>
+                <span className='text-muted'>
                   Owner (NH Tech.)
                 </span>
               </div>

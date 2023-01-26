@@ -18,6 +18,7 @@ import { app } from './components/firebase-config';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useEffect, useState } from 'react'
+import Profile from './components/Profile/Profile';
 function App() {
   const navigate = useNavigate();
   useEffect(() => {
@@ -121,6 +122,11 @@ function App() {
         <Route
           path='/contact'
           element={<Contact />}
+        />
+        
+        <Route
+          path='/profile'
+          element={<Profile />}
         />
       </Routes>
       {/* Footer */}
