@@ -1,7 +1,4 @@
 import { useState } from 'react'
-// import team2 from '../../../team/team-2.jpg'
-// import team3 from '../../images/team/team-3.jpg'
-// import team4 from '../../images/team/team-4.jpg'
 import trainersjson from './trainers.json'
 
 function Trainers() {
