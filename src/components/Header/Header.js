@@ -1,10 +1,12 @@
-import { Button } from 'react-bootstrap'
+import { useEffect, useState } from 'react';
+
 import { Link, useNavigate } from 'react-router-dom'
 import logo from '../../images/logo.png'
-import { toast } from 'react-toastify';
+import { toast } from 'react-toastify'
 import { GoSignOut } from 'react-icons/go'
+import { FaUserCircle } from 'react-icons/fa'
 import '../../styles/header.css'
-function Header() {
+function Header(props) {
   let navigate = useNavigate();
   const handleLogout = () => {
     sessionStorage.removeItem('Auth Token');
@@ -12,6 +14,7 @@ function Header() {
     navigate('/');
     toast.success('Logged Out Successfully')
   }
+
   return (
     <header style={{ maxWidth: '100vw' }} id='top'>
       <nav style={{ maxWidth: '100vw' }} className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -26,7 +29,7 @@ function Header() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" to='home' >Home</Link>
+                <Link className="nav-link active" to='home'>Home</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to='about'>About</Link>
@@ -43,7 +46,10 @@ function Header() {
             </ul>
             <div className="d-flex">
               <ul className="nav">
-                <li className="nav-item">
+                <li className="nav-item mx-2">
+                  <Link className="nav-link text-light btn btn-outline-warning" to={'profile'}><FaUserCircle size={20} className='text-warning' /> Profile</Link>
+                </li>
+                <li className="nav-item mx-2">
                   <a className="nav-link text-light btn btn-outline-warning" onClick={handleLogout}><GoSignOut size={20} className='text-warning' /> Logout</a>
                 </li>
               </ul>

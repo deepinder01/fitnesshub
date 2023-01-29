@@ -54,8 +54,8 @@ function App() {
       createUserWithEmailAndPassword(authentication, email, password)
         .then((response) => {
           navigate('/home');
-          sessionStorage.setItem('Email', response.user.email);
           sessionStorage.setItem('Auth Token', response._tokenResponse.refreshToken);
+          sessionStorage.setItem('Email', response.user.email);
           toast.success('User Created');
         })
         .catch((error) => {
