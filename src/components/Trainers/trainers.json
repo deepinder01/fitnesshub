@@ -3,7 +3,7 @@
     "id": 0,
     "name": "Bruce Willamson",
     "specialization":"Strength training",
-    "experience":5,
+    "experience":8,
     "image": "../team/t0.jpg"
   },
   {
@@ -17,14 +17,14 @@
     "id": 2,
     "name": "Johanna Care",
     "specialization":"Yoga",
-    "experience":5,
+    "experience":7,
     "image": "../team/t2.jpg"
   },
   {
     "id": 3,
     "name": "John McEnroe",
-    "specialization":"Strength training",
-    "experience":5,
+    "specialization":"Aerobic Exercises",
+    "experience":2,
     "image": "../team/t3.jpg"
   },
   {
@@ -38,34 +38,34 @@
     "id": 5,
     "name": "Jimmy Connors",
     "specialization":"Strength training",
-    "experience":5,
+    "experience":8,
     "image": "../team/t5.jpg"
   },
   {
     "id": 6,
     "name": "Monica Seles",
     "specialization":"Yoga",
-    "experience":5,
+    "experience":2,
     "image": "../team/t6.jpg"
   },
   {
     "id": 7,
     "name": "Pete Sampras",
     "specialization":"Strength training",
-    "experience":5,
+    "experience":3,
     "image": "../team/t7.jpg"
   },
   {
     "id": 8,
     "name": "Margaret Court",
     "specialization":"Yoga",
-    "experience":5,
+    "experience":4,
     "image": "../team/t8.jpg"
   },
   {
     "id": 9,
-    "name": "Aerobic Exercises",
-    "specialization":"Strength training",
+    "name": "John Holland",
+    "specialization":"Aerobic Exercises",
     "experience":5,
     "image": "../team/t9.jpg"
   },
@@ -73,14 +73,14 @@
     "id": 10,
     "name": "Rod Laver",
     "specialization":"Strength training",
-    "experience":5,
+    "experience":3,
     "image": "../team/t10.jpg"
   },
   {
     "id": 11,
     "name": "Roger Federer",
     "specialization":"Strength training",
-    "experience":5,
+    "experience":2,
     "image": "../team/t11.jpg"
   }
 ]
