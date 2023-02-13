@@ -27,28 +27,56 @@ function Header(props) {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" to='home'>Home</Link>
+                <Link className="nav-link active" to='home'>
+                  <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                    Home
+                  </span>
+                </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to='about'>About</Link>
+                <Link className="nav-link" to='about'>
+                  <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                    About
+                  </span>
+                </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to='trainers'>Trainers</Link>
+                <Link className="nav-link" to='trainers'>
+                  <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                    Trainers
+                  </span>
+                </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to='price'>Price</Link>
+                <Link className="nav-link" to='price'>
+                  <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                    Price
+                  </span>
+                </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to='contact'>Contact</Link>
+                <Link className="nav-link" to='contact'>
+                  <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                    Contact
+                  </span>
+                </Link>
               </li>
             </ul>
             <div className="d-flex">
               <ul className="nav">
                 <li className="nav-item mx-2">
-                  <Link className="nav-link text-light btn btn-outline-warning" to={'profile'}><FaUserCircle size={20} className='text-warning' /> Profile</Link>
+                  <Link className="nav-link text-light btn btn-outline-warning" to={'profile'}>
+                    <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                      <FaUserCircle size={20} className='text-warning' /> Profile
+                    </span>
+                  </Link>
                 </li>
                 <li className="nav-item mx-2">
-                  <a className="nav-link text-light btn btn-outline-warning" onClick={handleLogout}><GoSignOut size={20} className='text-warning' /> Logout</a>
+                  <a className="nav-link text-light btn btn-outline-warning" onClick={handleLogout}>
+                    <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                      <GoSignOut size={20} className='text-warning' /> Logout
+                    </span>
+                  </a>
                 </li>
               </ul>
             </div>
